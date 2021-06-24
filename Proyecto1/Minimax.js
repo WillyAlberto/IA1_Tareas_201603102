@@ -177,7 +177,10 @@ function calcMovimientos(turno){
 
 
     document.body.innerHTML = pintarTablero() + "<br><br>Resultado: " + movs[0] + "<br>";
-    document.body.appendChild(bot);
+        document.body.appendChild(bot);
+    
+
+    
 }
 
 function analizar(turno, estado){
@@ -188,6 +191,11 @@ function analizar(turno, estado){
     
     formar_matriz(estado);
     calcMovimientos(turno);
+    let a = document.getElementsByTagName("html");
+    console.log(a)
+    
+    
+    
 }
 
 function pintarTablero(){
