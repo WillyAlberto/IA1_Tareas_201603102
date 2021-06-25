@@ -1,3 +1,0 @@
-
-
-export {Norte, Sur};
